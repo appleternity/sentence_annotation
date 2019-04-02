@@ -1,0 +1,111 @@
+
+.center_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.instruction {
+    background: #22333B;
+    border-radius: 5px;
+    color: white;
+    font-size: 16pt;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-famly:"Baloo Thambi";
+    margin-bottom: 50px;
+}
+
+.question {
+    margin:0px auto;
+    width: 100%;
+    /*height: 300px;*/
+    box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.3);
+    border: 1px rgba(50, 50, 50, 0.3) solid;
+    border-radius: 5px;
+    padding: 30px 30px 30px 30px;
+}
+
+.question strong {
+    background: yellow;
+}
+
+.question_table tr:nth-child(odd) td {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.question_table tr:nth-child(even) td {
+    font-size: 18pt;
+    padding-bottom: 25px;
+}
+
+.answer_table {
+	font-size: 18pt;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+.answer_table tr:nth-child(1) td {
+    padding-bottom: 20px;
+}
+
+.answer_table tr:nth-child(2) td {
+    font-weight: bold;
+}
+
+.answer_table td {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    width: 150px;
+}
+
+.answer_table td:nth-child(1) {
+    padding-right: 20px;
+}
+
+.answer_table td:nth-child(7) {
+    padding-left: 20px;
+}
+
+.form-radio {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     left: 4px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before {
+     position: absolute;
+     font: 25px/1 'Open Sans', sans-serif;
+     font-weight: bold;
+     left: 8px;
+     top: 2px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover {
+     /*background-color: #f7f7f7;*/
+     background-color: rgb(200, 200, 200);
+}
+.form-radio:checked {
+     background-color: #f1f1f1;
+}
+label
+{
+     font: 300 16px/1.7 'Open Sans', sans-serif;
+     color: #666;
+     cursor: pointer;
+} 
