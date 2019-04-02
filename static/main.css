@@ -93,7 +93,8 @@
      font-weight: bold;
      left: 8px;
      top: 2px;
-     content: '\02143';
+     /*content: '\02143';*/
+     content: 'v';
      transform: rotate(40deg);
 }
 .form-radio:hover {
