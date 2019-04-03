@@ -82,6 +82,11 @@ def display_sent(sent, target, another_word):
     )
     return ori, new
 
+def generate_template(template, **kwargs):
+    for key, val in kwargs.items():
+        template = template.replace("{{{}}}".format(key), str(val))
+    return template
+
 def generate_html():
     with open("wordset.json", 'r', encoding='utf-8') as infile:
         wordsets = json.load(infile)
@@ -99,7 +104,11 @@ def generate_html():
         for sent in sent_list:
             ori, new = display_sent(sent, w1, w2) 
             with open("html/{:0>4}.html".format(count), 'w', encoding='utf-8') as outfile:
-                outfile.write(template.replace("{{s1}}", ori).replace("{{s2}}", new))
+                #outfile.write(template.replace("{{s1}}", ori).replace("{{s2}}", new))
+                outfile.write(generate_template(
+                    template=template,
+                    s1=ori, s2=new, w1=w1, w2=w2, w=w1, id=count,
+                ))
             count += 1
 
         # w2
@@ -107,7 +116,11 @@ def generate_html():
         for sent in sent_list:
             ori, new = display_sent(sent, w2, w1) 
             with open("html/{:0>4}.html".format(count), 'w', encoding='utf-8') as outfile:
-                outfile.write(template.replace("{{s1}}", ori).replace("{{s2}}", new))
+                #outfile.write(template.replace("{{s1}}", ori).replace("{{s2}}", new))
+                outfile.write(generate_template(
+                    template=template,
+                    s1=ori, s2=new, w1=w1, w2=w2, w=w2, id=count, 
+                ))
             count += 1
 
 def main():

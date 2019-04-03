@@ -30,63 +30,72 @@
             <div class="col-1"></div>
         </div>
 
-        <div class="row question">
-            <table class="question_table">
-                <tr><td>Original</td></tr>
-                <tr>
-                    <!--td>The structure, he said, allowed Germans to <strong>postpone</strong> resolution of their internal conflict.</td-->
-                    <td>Obama’s Tacoma appearance was originally scheduled for Feb. 8 but was <strong>postponed</strong> due to a snowstorm.</td>
-                </tr>
-                <tr><td>Replaced</td></tr>
-                <tr>
-                    <!--td>The structure, he said, allowed Germans to <strong>delay</strong> resolution of their internal conflict.</td-->
-                    <td>Obama’s Tacoma appearance was originally scheduled for Feb. 8 but was <strong>delay</strong> due to a snowstorm.</td>
-                </tr>
-            </table>
+        <form id="mturk_form" name="mturk_form" onsubmit="return validateForm()">
+            <div class="row question">
+                <table class="question_table">
+                    <tr><td>Original</td></tr>
+                    <tr>
+                        <!--td>The structure, he said, allowed Germans to <strong>postpone</strong> resolution of their internal conflict.</td-->
+                        <td>{Obama’s Tacoma appearance was originally scheduled for Feb. 8 but was <strong>postponed</strong> due to a snowstorm.}</td>
+                    </tr>
+                    <tr><td>Replaced</td></tr>
+                    <tr>
+                        <!--td>The structure, he said, allowed Germans to <strong>delay</strong> resolution of their internal conflict.</td-->
+                        <td>{Obama’s Tacoma appearance was originally scheduled for Feb. 8 but was <strong>delay</strong> due to a snowstorm.}</td>
+                    </tr>
+                </table>
 
-            <table class="answer_table">
-                <tr>
-                    <td colspan="7" style="text-align:center;">
-                        Does these two sentences have the same meaning?
-                    </td>
-                </tr>
+                <table class="answer_table">
+                    <tr>
+                        <td colspan="7" style="text-align:center;">
+                            Does these two sentences have the same meaning?
+                        </td>
+                    </tr>
 
-                <tr>
-                    <td></td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td></td>
-                </tr>
-                </tr>
+                    <tr>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td></td>
+                    </tr>
+                    </tr>
 
-                <tr>
-                    <td>
-                        Strongly Disagree
-                    </td>
-                    <td>
-                        <input type="radio" name="demo" value="1" id="radio_1" class="form-radio" >
-                    </td>
-                    <td>
-                        <input type="radio" name="demo" value="2" id="radio_2" class="form-radio" >
-                    </td>
-                    <td>
-                        <input type="radio" name="demo" value="3" id="radio_3" class="form-radio" >
-                    </td>
-                    <td>
-                        <input type="radio" name="demo" value="4" id="radio_4" class="form-radio" >
-                    </td>
-                    <td>
-                        <input type="radio" name="demo" value="5" id="radio_5" class="form-radio" >
-                    </td>
-                    <td>
-                        Strongly Agree
-                    </td>
-                </tr>
-            </table>
-        </div>
+                    <tr>
+                        <td>
+                            Strongly Disagree
+                        </td>
+                        <td>
+                            <input type="radio" name="q1" value="1" class="form-radio" >
+                        </td>
+                        <td>
+                            <input type="radio" name="q1" value="2" class="form-radio" >
+                        </td>
+                        <td>
+                            <input type="radio" name="q1" value="3" class="form-radio" >
+                        </td>
+                        <td>
+                            <input type="radio" name="q1" value="4" class="form-radio" >
+                        </td>
+                        <td>
+                            <input type="radio" name="q1" value="5" class="form-radio" >
+                        </td>
+                        <td>
+                            Strongly Agree
+                        </td>
+                    </tr>
+                </table>
+                <input id="mturk_assignment_id" name="assignment_id" type="hidden">
+                <input id="memo" name="memo" type="hidden" value="{postpone}|{delay}|{postpone}|{2}">
+
+                <!--button type="button" class="time_lock_btn btn btn-outline-primary btn-block" time-lock="30" disabled id="submit_btn">Submit</button-->
+                <input type="submit" value="Submit" class="time_lock_btn btn btn-outline-primary btn-block" time-lock="30" disabled id="submit_btn">
+
+            </div>
+
+        </form>
     </div>
 
 </body>

@@ -114,3 +114,15 @@ label
      color: #666;
      cursor: pointer;
 } 
+
+.answer_table {
+    margin-bottom: 50px;
+}
+
+button:active {
+    outline: none;
+}
+
+.time_lock_btn {
+    
+}
