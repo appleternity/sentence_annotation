@@ -3,6 +3,7 @@ import json
 import sys
 sys.path.append("/home/appleternity/tool/stanford-corenlp-full-2017-06-09")
 import numpy as np
+import os
 
 from nltk.stem import WordNetLemmatizer
 from interface import tokenize_pos
@@ -122,6 +123,9 @@ def generate_html():
                     s1=ori, s2=new, w1=w1, w2=w2, w=w2, id=count, 
                 ))
             count += 1
+
+    # update static
+    os.system("cp static/* html/static/")
 
 def main():
     #parsing()

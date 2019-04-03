@@ -21,7 +21,6 @@ $(document).ready(function() {
             $(form_selector).attr('action', submit_url + '/mturk/externalSubmit');
         }
     }
-
 });
 
 var start_time_lock = function(element_id) {
@@ -39,6 +38,21 @@ var start_time_lock = function(element_id) {
     }, 1000);
 }
 
+var warning = function(w) {
+    if (arguments.length) {
+        console.log(w);
+        $("#warning").text(w);
+        if (w == "") {
+            $(".answer_table").removeClass("warning");
+        } else {
+            $(".answer_table").addClass("warning");
+        }
+    } else {
+        return $("#warning").text();
+    }
+    return false;
+}
+
 // selector used by jquery to identify your form
 var form_selector = "#mturk_form";
 
@@ -54,5 +68,12 @@ function gup(name) {
 }
 
 function validateForm() {
+    warning("");
+    var q1 = $('input[name="q1"]:checked').val();
+    console.log(q1);
+    if (q1 == null || q1 == undefined) {
+        warning("Please select an answer.");
+        return false;
+    }
     return true;
 }
