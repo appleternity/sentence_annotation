@@ -26,6 +26,7 @@ body {
     border: 1px rgba(50, 50, 50, 0.3) solid;
     border-radius: 5px;
     padding: 30px 30px 30px 30px;
+    display: block;
 }
 
 .question strong {
@@ -46,7 +47,8 @@ body {
 	font-size: 18pt;
     text-align: center;
     vertical-align: middle;
-    margin-top: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .answer_table tr:nth-child(1) td {
@@ -61,7 +63,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     height: 30px;
-    width: 150px;
+    width: 180px;
 }
 
 .answer_table td:nth-child(1) {
@@ -114,10 +116,6 @@ label
      color: #666;
      cursor: pointer;
 } 
-
-.answer_table {
-    margin-bottom: 50px;
-}
 
 button:active {
     outline: none;

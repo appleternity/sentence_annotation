@@ -32,41 +32,38 @@
 
         <form id="mturk_form" name="mturk_form" onsubmit="return validateForm()">
             <div class="row question">
+
                 <table class="question_table">
                     <tr><td>Original</td></tr>
                     <tr>
                         <!--td>The structure, he said, allowed Germans to <strong>postpone</strong> resolution of their internal conflict.</td-->
-                        <td>{“The House of Commons did not <strong>manage</strong> to find a majority again last night”, Barnier said.}</td>
+                        <td>“The House of Commons did not <strong>manage</strong> to find a majority again last night”, Barnier said.</td>
                     </tr>
                     <tr><td>Replaced</td></tr>
                     <tr>
                         <!--td>The structure, he said, allowed Germans to <strong>delay</strong> resolution of their internal conflict.</td-->
-                        <td>{“The House of Commons did not <strong>arrange</strong> to find a majority again last night”, Barnier said.}</td>
+                        <td>“The House of Commons did not <strong>arrange</strong> to find a majority again last night”, Barnier said.</td>
                     </tr>
                 </table>
 
+                <div style="width:90%; border:1px grey solid; margin:0 auto; margin-top:20px; margin-bottom:40px;"></div>
+
                 <table class="answer_table">
                     <tr>
-                        <td colspan="7" style="text-align:center;">
-                            Does these two sentences have the same meaning?
+                        <td colspan="5" style="text-align:center;">
+                            These two sentences have exactly the same meaning. Do you agree or not?
                         </td>
                     </tr>
 
                     <tr>
-                        <td></td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td></td>
-                    </tr>
+                        <td>Strongly Disagree</td>
+                        <td>Disagree</td>
+                        <td>Neutral</td>
+                        <td>Agree</td>
+                        <td>Strongly Agree</td>
                     </tr>
 
                     <tr>
-                        <td>
-                            Strongly Disagree
-                        </td>
                         <td>
                             <input type="radio" name="q1" value="1" class="form-radio" >
                         </td>
@@ -82,15 +79,14 @@
                         <td>
                             <input type="radio" name="q1" value="5" class="form-radio" >
                         </td>
-                        <td>
-                            Strongly Agree
-                        </td>
                     </tr>
                 </table>
+
+
                 <div id="warning"></div>
 
                 <input id="mturk_assignment_id" name="assignment_id" type="hidden">
-                <input id="memo" name="memo" type="hidden" value="{manage}|{arrange}|{manage}|{65}">
+                <input id="memo" name="memo" type="hidden" value="manage|arrange|manage|65">
                 <!--button type="button" class="time_lock_btn btn btn-outline-primary btn-block" time-lock="30" disabled id="submit_btn">Submit</button-->
                 <input type="submit" value="Submit" class="time_lock_btn btn btn-outline-primary btn-block" time-lock="3" disabled id="submit_btn">
 

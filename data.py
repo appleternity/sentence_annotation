@@ -85,7 +85,7 @@ def display_sent(sent, target, another_word):
 
 def generate_template(template, **kwargs):
     for key, val in kwargs.items():
-        template = template.replace("{{{}}}".format(key), str(val))
+        template = template.replace("{}{}{}".format("{{", key, "}}"), str(val))
     return template
 
 def generate_html():
