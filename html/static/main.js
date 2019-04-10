@@ -2,6 +2,12 @@ $(document).ready(function() {
     console.log("Hello");
     start_time_lock("submit_btn"); 
 	
+    console.log("hahahahahahahahaha");
+    console.log(window.location.href);
+    console.log(gup("assignmentId"));
+    console.log($(form_selector));
+    console.log("hahahahahahahahaha"); 
+
     if((aid = gup("assignmentId"))!="" && $(form_selector).length>0) {
         // If the HIT hasn't been accepted yet, disabled the form fields.
         if(aid == "ASSIGNMENT_ID_NOT_AVAILABLE") {
