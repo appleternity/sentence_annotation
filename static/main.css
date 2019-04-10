@@ -1,6 +1,7 @@
 body {
     margin-top: 20px;
     margin-bottom: 100px;
+    font-family:"sans-serif";
 }
 .center_title {
     text-align: center;
@@ -14,8 +15,16 @@ body {
     font-size: 16pt;
     padding-top: 30px;
     padding-bottom: 10px;
-    font-famly:"Baloo Thambi";
+    font-family:"sans-serif";
     margin-bottom: 50px;
+}
+
+.light {
+    color: yellow;
+}
+
+.instruction strong {
+    text-decoration: underline;
 }
 
 .question {
@@ -48,7 +57,6 @@ body {
     text-align: center;
     vertical-align: middle;
     margin: 0 auto;
-    margin-bottom: 50px;
 }
 
 .answer_table tr:nth-child(1) td {
@@ -59,11 +67,14 @@ body {
     font-weight: bold;
 }
 
+.answer_table tr:nth-child(3) td {
+    padding-bottom: 30px;
+}
 .answer_table td {
     padding-left: 10px;
     padding-right: 10px;
     height: 30px;
-    width: 180px;
+    width: 190px;
 }
 
 .answer_table td:nth-child(1) {
@@ -131,6 +142,7 @@ button:active {
     color: red;
     height: 40px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .warning {

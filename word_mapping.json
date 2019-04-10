@@ -1,0 +1,88 @@
+{
+    "realize": {
+        "VB": "realize",
+        "VBP": "realize",
+        "VBZ": "realizes",
+        "VBG": "realizing",
+        "VBN": "realized",
+        "VBD": "realized"
+    },
+    "skillful": {
+        "NNS": "skillful",
+        "VBZ": "skillful",
+        "VBG": "skillful",
+        "VBN": "skillful",
+        "JJ": "skillful",
+        "RB": "skillful",
+        "NN": "skillful",
+        "NNP": "skillful",
+        "VBD": "skillful"
+    },
+    "manage": {
+        "VB": "manage",
+        "VBP": "manage",
+        "VBZ": "manages",
+        "VBG": "managing",
+        "VBN": "managed",
+        "VBD": "managed"
+    },
+    "destroy": {
+        "VB": "destroy",
+        "VBP": "destroy",
+        "VBZ": "destroys",
+        "VBG": "destroying",
+        "VBN": "destroyed",
+        "VBD": "destroyed",
+        "NNS": "destroys"
+    },
+    "understand": {
+        "VB": "understand",
+        "VBP": "understand",
+        "VBZ": "understands",
+        "VBG": "understanding",
+        "VBN": "understood",
+        "VBD": "understood"
+    },
+    "delay": {
+        "VB": "delay",
+        "VBP": "delay",
+        "VBD": "delayed",
+        "VBZ": "delays",
+        "VBG": "delaying",
+        "VBN": "delayed",
+        "NNS": "delays",
+        "NN": "delay"
+    },
+    "postpone": {
+        "VB": "postpone",
+        "VBD": "postponed",
+        "VBZ": "postpones",
+        "VBG": "postponing",
+        "NNS": "postpones",
+        "VBN": "postponed"
+    },
+    "skilled": {
+        "JJ": "skilled",
+        "NN": "skilled",
+        "VBZ": "skilled"
+    },
+    "arrange": {
+        "VB": "arrange",
+        "VBP": "arrange",
+        "VBD": "arranged",
+        "VBZ": "arranges",
+        "VBG": "arranging",
+        "VBN": "arranged"
+    },
+    "spoil": {
+        "VB": "spoil",
+        "VBP": "spoil",
+        "VBD": "spoiled",
+        "VBZ": "spoils",
+        "VBG": "spoiled",
+        "VBN": "spoiled",
+        "NNS": "spoils",
+        "NN": "spoil",
+        "JJ": "spoil"
+    }
+}

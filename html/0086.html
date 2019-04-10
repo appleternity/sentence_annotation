@@ -8,7 +8,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="static/main.css"/>
     <script src="static/main.js"> </script>
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
 </head>
@@ -21,10 +20,12 @@
             <div class="col-10 instruction">
                 <ul>
                     <li>There are two example sentences below. </li>
-                    <li>The first one is the original sentence.</li>
-                    <li>We replace the target word by its synonyms in the second example sentence. </li>
-                    <li>Please read these two example sentences carefully and think about the meaning and the grammar.</li>
-                    <li>After 3 seconds, please answer the following question by clicking the button.</li>
+                    <ol>
+                        <li>The first one is the original sentence.</li>
+                        <li>We <strong>replace "<span class="light">destroy</span>" by its synonym, "<span class="light">spoil</span>",</strong> in the second example sentence. </li>                
+                    </ol>
+                    <li>Please read these two example sentences carefully and <strong>think about the meaning and the grammar</strong>.</li>
+                    <li>After <strong>3 seconds</strong>, please answer the following question.</li>
                 </ul>
             </div>
             <div class="col-1"></div>
@@ -42,7 +43,7 @@
                     <tr><td>Replaced</td></tr>
                     <tr>
                         <!--td>The structure, he said, allowed Germans to <strong>delay</strong> resolution of their internal conflict.</td-->
-                        <td>The player <strong>spoil</strong> the universe with the same sense of remoteness involved in ordering a sweater online.</td>
+                        <td>The player <strong>spoils</strong> the universe with the same sense of remoteness involved in ordering a sweater online.</td>
                     </tr>
                 </table>
 
@@ -81,7 +82,6 @@
                         </td>
                     </tr>
                 </table>
-
 
                 <div id="warning"></div>
 
