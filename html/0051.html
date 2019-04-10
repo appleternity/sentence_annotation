@@ -8,9 +8,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="static/main.css"/>
     <script src="static/main.js"> </script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
-    <script src="https://s3.amazonaws.com/mturk-public/externalHIT_v1.js"> </script>
 </head>
 <body>
     <div class="container">
@@ -87,6 +84,8 @@
                 <div id="warning"></div>
 
                 <input id="mturk_assignment_id" name="assignment_id" type="hidden">
+                <input id="mturk_worker_id" name="worker_id" type="hidden">
+                <input id="mturk_hit_id" name="hit_id" type="hidden">
                 <!--input id="memo" name="memo" type="hidden" value="skillful|skilled|skilled|51"-->
                 <!--button type="button" class="time_lock_btn btn btn-outline-primary btn-block" time-lock="30" disabled id="submit_btn">Submit</button-->
                 <input type="submit" value="Submit" class="time_lock_btn btn btn-outline-primary btn-block" time-lock="5" disabled id="submit_btn">

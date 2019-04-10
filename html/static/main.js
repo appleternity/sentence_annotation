@@ -18,6 +18,8 @@ $(document).ready(function() {
         // with assignment_id as its value.
         // var aid_input = $("<input type='hidden' name='assignment_id' value='" + aid + "'>").appendTo($(form_selector));
         $("#mturk_assignment_id").val(aid);
+        $("#mturk_worker_id").val(gup("worderId"));
+        $("#mturk_hit_id").val(gup("hitId"));
 
         // Make sure the submit form's method is POST
         $(form_selector).attr('method', 'POST');
