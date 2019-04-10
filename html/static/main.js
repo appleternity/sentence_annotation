@@ -77,6 +77,7 @@ function validateForm() {
     warning("");
     var q1 = $('input[name="q1"]:checked').val();
     console.log(q1);
+    console.log($(form_selector).attr('action'));
     if (q1 == null || q1 == undefined) {
         warning("Please select an answer.");
         return false;
