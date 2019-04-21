@@ -2,24 +2,16 @@ $(document).ready(function() {
     console.log("Hello");
     start_time_lock("submit_btn"); 
 	
-    console.log("hahahahahahahahaha");
-    console.log(window.location.href);
-    console.log(gup("assignmentId"));
-    console.log($(form_selector));
-    console.log("hahahahahahahahaha"); 
-
     if((aid = gup("assignmentId"))!="" && $(form_selector).length>0) {
         // If the HIT hasn't been accepted yet, disabled the form fields.
         if(aid == "ASSIGNMENT_ID_NOT_AVAILABLE") {
             $('input,textarea,select').attr("DISABLED", "disabled");
         }
 
-        // Add a new hidden input element with name="assignment_id" that
-        // with assignment_id as its value.
-        // var aid_input = $("<input type='hidden' name='assignment_id' value='" + aid + "'>").appendTo($(form_selector));
+        // Add a new hidden input element with name="assignmentId" that
+        // with assignmentId as its value.
+        // var aid_input = $("<input type='hidden' name='assignmentId' value='" + aid + "'>").appendTo($(form_selector));
         $("#mturk_assignment_id").val(aid);
-        $("#mturk_worker_id").val(gup("worderId"));
-        $("#mturk_hit_id").val(gup("hitId"));
 
         // Make sure the submit form's method is POST
         $(form_selector).attr('method', 'POST');

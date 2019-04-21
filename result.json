@@ -1,0 +1,702 @@
+{
+    "destroy|spoil|spoil|95": [
+        2,
+        4,
+        2,
+        2,
+        4
+    ],
+    "skillful|skilled|skilled|50": [
+        5,
+        5,
+        3,
+        5,
+        5
+    ],
+    "realize|understand|understand|32": [
+        5,
+        4,
+        5,
+        4,
+        4
+    ],
+    "skillful|skilled|skilled|58": [
+        4,
+        4,
+        4,
+        5,
+        5
+    ],
+    "postpone|delay|delay|15": [
+        5,
+        5,
+        5,
+        5,
+        5
+    ],
+    "skillful|skilled|skillful|46": [
+        3,
+        4,
+        2,
+        5,
+        5
+    ],
+    "manage|arrange|arrange|78": [
+        4,
+        3,
+        2,
+        4,
+        2
+    ],
+    "manage|arrange|arrange|75": [
+        2,
+        2,
+        2,
+        2,
+        1
+    ],
+    "destroy|spoil|spoil|91": [
+        2,
+        4,
+        4,
+        4,
+        4
+    ],
+    "realize|understand|realize|27": [
+        4,
+        4,
+        1,
+        4,
+        4
+    ],
+    "realize|understand|realize|22": [
+        1,
+        4,
+        3,
+        4,
+        2
+    ],
+    "destroy|spoil|destroy|85": [
+        4,
+        4,
+        2,
+        4,
+        2
+    ],
+    "manage|arrange|arrange|73": [
+        4,
+        2,
+        4,
+        1,
+        2
+    ],
+    "realize|understand|realize|23": [
+        4,
+        4,
+        4,
+        4,
+        2
+    ],
+    "realize|understand|understand|38": [
+        2,
+        4,
+        4,
+        4,
+        2
+    ],
+    "destroy|spoil|spoil|99": [
+        2,
+        1,
+        1,
+        1,
+        1
+    ],
+    "realize|understand|understand|34": [
+        2,
+        2,
+        4,
+        5,
+        2
+    ],
+    "skillful|skilled|skillful|40": [
+        4,
+        5,
+        5,
+        5,
+        4
+    ],
+    "manage|arrange|manage|60": [
+        2,
+        2,
+        4,
+        2,
+        2
+    ],
+    "manage|arrange|manage|66": [
+        1,
+        2,
+        2,
+        1,
+        5
+    ],
+    "manage|arrange|arrange|76": [
+        2,
+        2,
+        2,
+        5,
+        5
+    ],
+    "postpone|delay|postpone|0": [
+        5,
+        5,
+        5,
+        5,
+        5
+    ],
+    "realize|understand|understand|37": [
+        2,
+        2,
+        3,
+        4,
+        2
+    ],
+    "skillful|skilled|skilled|59": [
+        5,
+        5,
+        4,
+        4,
+        5
+    ],
+    "manage|arrange|manage|69": [
+        4,
+        4,
+        3,
+        4,
+        5
+    ],
+    "destroy|spoil|destroy|86": [
+        3,
+        4,
+        4,
+        4,
+        2
+    ],
+    "destroy|spoil|destroy|89": [
+        4,
+        2,
+        2,
+        2,
+        2
+    ],
+    "realize|understand|realize|24": [
+        2,
+        4,
+        5,
+        1,
+        2
+    ],
+    "manage|arrange|manage|68": [
+        2,
+        4,
+        2,
+        3,
+        4
+    ],
+    "realize|understand|realize|29": [
+        2,
+        5,
+        5,
+        2,
+        4
+    ],
+    "destroy|spoil|spoil|97": [
+        4,
+        4,
+        2,
+        4,
+        4
+    ],
+    "realize|understand|understand|35": [
+        4,
+        4,
+        3,
+        2,
+        4
+    ],
+    "realize|understand|understand|39": [
+        3,
+        5,
+        4,
+        2,
+        2
+    ],
+    "destroy|spoil|destroy|82": [
+        2,
+        4,
+        1,
+        2,
+        4
+    ],
+    "destroy|spoil|destroy|84": [
+        2,
+        4,
+        4,
+        4,
+        2
+    ],
+    "skillful|skilled|skilled|52": [
+        5,
+        4,
+        3,
+        4,
+        5
+    ],
+    "manage|arrange|arrange|74": [
+        3,
+        2,
+        5,
+        3,
+        5
+    ],
+    "realize|understand|realize|25": [
+        5,
+        5,
+        4,
+        4,
+        2
+    ],
+    "skillful|skilled|skillful|42": [
+        5,
+        2,
+        4,
+        2,
+        4
+    ],
+    "destroy|spoil|destroy|80": [
+        1,
+        2,
+        1,
+        4,
+        1
+    ],
+    "postpone|delay|postpone|2": [
+        5,
+        5,
+        5,
+        5,
+        5
+    ],
+    "realize|understand|understand|33": [
+        5,
+        4,
+        4,
+        4,
+        2
+    ],
+    "postpone|delay|delay|11": [
+        5,
+        4,
+        5,
+        5,
+        5
+    ],
+    "realize|understand|realize|21": [
+        4,
+        5,
+        2,
+        4,
+        4
+    ],
+    "realize|understand|understand|36": [
+        1,
+        2,
+        1,
+        4,
+        2
+    ],
+    "postpone|delay|postpone|3": [
+        5,
+        5,
+        5,
+        5,
+        5
+    ],
+    "destroy|spoil|spoil|94": [
+        4,
+        2,
+        5,
+        4,
+        4
+    ],
+    "skillful|skilled|skillful|49": [
+        4,
+        5,
+        5,
+        5,
+        5
+    ],
+    "skillful|skilled|skillful|48": [
+        5,
+        2,
+        4,
+        5,
+        5
+    ],
+    "postpone|delay|delay|13": [
+        4,
+        5,
+        5,
+        5,
+        5
+    ],
+    "manage|arrange|arrange|79": [
+        2,
+        2,
+        1,
+        1,
+        2
+    ],
+    "postpone|delay|delay|17": [
+        5,
+        4,
+        4,
+        1,
+        5
+    ],
+    "postpone|delay|delay|19": [
+        5,
+        5,
+        5,
+        5,
+        4
+    ],
+    "skillful|skilled|skilled|55": [
+        4,
+        5,
+        5,
+        3,
+        4
+    ],
+    "skillful|skilled|skillful|43": [
+        5,
+        4,
+        5,
+        5,
+        5
+    ],
+    "destroy|spoil|spoil|90": [
+        2,
+        4,
+        4,
+        2,
+        4
+    ],
+    "postpone|delay|postpone|7": [
+        5,
+        5,
+        4,
+        5,
+        5
+    ],
+    "destroy|spoil|spoil|98": [
+        2,
+        4,
+        4,
+        2,
+        2
+    ],
+    "destroy|spoil|destroy|87": [
+        1,
+        2,
+        4,
+        2,
+        2
+    ],
+    "postpone|delay|postpone|8": [
+        5,
+        5,
+        5,
+        5,
+        5
+    ],
+    "realize|understand|understand|30": [
+        4,
+        4,
+        2,
+        1,
+        2
+    ],
+    "destroy|spoil|spoil|96": [
+        2,
+        2,
+        2,
+        4,
+        1
+    ],
+    "postpone|delay|delay|10": [
+        5,
+        2,
+        4,
+        5,
+        4
+    ],
+    "postpone|delay|postpone|6": [
+        5,
+        5,
+        5,
+        5,
+        4
+    ],
+    "destroy|spoil|destroy|83": [
+        4,
+        4,
+        1,
+        2,
+        2
+    ],
+    "postpone|delay|postpone|9": [
+        5,
+        4,
+        4,
+        5,
+        5
+    ],
+    "skillful|skilled|skilled|51": [
+        5,
+        5,
+        5,
+        5,
+        5
+    ],
+    "skillful|skilled|skillful|41": [
+        5,
+        4,
+        5,
+        5,
+        5
+    ],
+    "realize|understand|realize|28": [
+        4,
+        4,
+        5,
+        5,
+        4
+    ],
+    "realize|understand|realize|26": [
+        4,
+        4,
+        5,
+        5,
+        5
+    ],
+    "postpone|delay|postpone|4": [
+        5,
+        5,
+        4,
+        5,
+        5
+    ],
+    "manage|arrange|manage|61": [
+        2,
+        4,
+        3,
+        4,
+        2
+    ],
+    "manage|arrange|manage|63": [
+        4,
+        2,
+        4,
+        2,
+        4
+    ],
+    "postpone|delay|postpone|1": [
+        5,
+        5,
+        4,
+        5,
+        5
+    ],
+    "manage|arrange|manage|62": [
+        5,
+        5,
+        4,
+        4,
+        5
+    ],
+    "postpone|delay|delay|14": [
+        5,
+        5,
+        5,
+        5,
+        5
+    ],
+    "destroy|spoil|destroy|81": [
+        4,
+        4,
+        2,
+        1,
+        2
+    ],
+    "skillful|skilled|skilled|53": [
+        5,
+        2,
+        4,
+        5,
+        4
+    ],
+    "skillful|skilled|skilled|54": [
+        5,
+        5,
+        5,
+        5,
+        5
+    ],
+    "postpone|delay|delay|16": [
+        2,
+        4,
+        4,
+        5,
+        4
+    ],
+    "skillful|skilled|skillful|47": [
+        2,
+        5,
+        5,
+        5,
+        5
+    ],
+    "postpone|delay|delay|18": [
+        4,
+        1,
+        5,
+        5,
+        5
+    ],
+    "skillful|skilled|skilled|57": [
+        5,
+        5,
+        5,
+        4,
+        5
+    ],
+    "postpone|delay|postpone|5": [
+        5,
+        5,
+        5,
+        5,
+        5
+    ],
+    "manage|arrange|manage|64": [
+        2,
+        2,
+        1,
+        3,
+        1
+    ],
+    "manage|arrange|manage|67": [
+        2,
+        2,
+        4,
+        2,
+        1
+    ],
+    "skillful|skilled|skillful|44": [
+        4,
+        5,
+        5,
+        5,
+        5
+    ],
+    "destroy|spoil|destroy|88": [
+        2,
+        4,
+        4,
+        2,
+        2
+    ],
+    "skillful|skilled|skillful|45": [
+        4,
+        5,
+        5,
+        5,
+        5
+    ],
+    "realize|understand|realize|20": [
+        4,
+        4,
+        2,
+        4,
+        2
+    ],
+    "manage|arrange|arrange|72": [
+        5,
+        2,
+        2,
+        2,
+        4
+    ],
+    "manage|arrange|arrange|70": [
+        2,
+        2,
+        3,
+        5,
+        2
+    ],
+    "realize|understand|understand|31": [
+        2,
+        1,
+        1,
+        3,
+        2
+    ],
+    "destroy|spoil|spoil|93": [
+        2,
+        4,
+        1,
+        2,
+        4
+    ],
+    "manage|arrange|arrange|71": [
+        1,
+        2,
+        2,
+        2,
+        4
+    ],
+    "skillful|skilled|skilled|56": [
+        5,
+        5,
+        4,
+        5,
+        5
+    ],
+    "destroy|spoil|spoil|92": [
+        2,
+        2,
+        1,
+        4,
+        4
+    ],
+    "manage|arrange|manage|65": [
+        5,
+        2,
+        4,
+        2,
+        4
+    ],
+    "manage|arrange|arrange|77": [
+        4,
+        4,
+        2,
+        2,
+        5
+    ],
+    "postpone|delay|delay|12": [
+        5,
+        5,
+        4,
+        2,
+        5
+    ]
+}

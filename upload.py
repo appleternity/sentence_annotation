@@ -29,31 +29,64 @@ def get_client():
     print(client.get_account_balance()['AvailableBalance'])
     return client
 
-def send_hit(client):
-    with open("setting.xml", 'r') as infile:
-        setting = infile.read()
+def send_hit_batch(client):
+    with open("template_setting.xml", 'r') as infile:
+        template_setting = infile.read()
+    for i in range(0, 100):
+        setting = "https://appleternity.github.io/sentence_annotation/html/{:0>4}.html".format(i)
+        send_hit(client, template_setting.format(setting))
+        print(setting)
+
+def send_hit(client, setting=None):
+    if setting is None:
+        with open("setting.xml", 'r') as infile:
+            setting = infile.read()
 
     response = client.create_hit(
-        MaxAssignments=3,
-        # AutoApprovalDelayInSeconds=10,
+        MaxAssignments=5,
         LifetimeInSeconds=60*60*60,
-        AssignmentDurationInSeconds=60*60,
-        Reward='0.01',
-        Title='Difference of the synonyms.',
+        AssignmentDurationInSeconds=60*10,
+        Reward='0.08',
+        Title='Difference of the synonyms!!!',
         Keywords='Synonyms,Difference,Example Sentences',
-        Description='We have two example sentences written with two words. These two words are synonym. Do they have the same meaning?',
+        Description= "Given two example sentences, you need to consider if they have the same meaning or not?",
         Question=setting,
-        # QualificationRequirements=[
-        #     {
-        #         'QualificationTypeId': 'string',
-        #         'Comparator': 'LessThan'|'LessThanOrEqualTo'|'GreaterThan'|'GreaterThanOrEqualTo'|'EqualTo'|'NotEqualTo'|'Exists'|'DoesNotExist'|'In'|'NotIn',
-        #         'IntegerValues': [
-        #             123,
-        #         ],
-        #         'RequiredToPreview': True|False,
-        #         'ActionsGuarded': 'Accept'|'PreviewAndAccept'|'DiscoverPreviewAndAccept'
-        #     },
-        # ],
+        QualificationRequirements=[
+            {
+                'QualificationTypeId': '00000000000000000071',
+                'Comparator': 'In',
+                'LocaleValues': [
+                    {
+                        'Country': 'US',
+                    },
+                ],
+                'ActionsGuarded': 'Accept'
+            },
+            #{
+            #    "QualificationTypeId": "00000000000000000040",
+            #    "Comparator": "GreaterThanOrEqualTo",
+            #    "IntegerValues": [
+            #        3000
+            #    ],
+            #    "ActionsGuarded": "Accept"
+            #},
+            {
+                "QualificationTypeId": "000000000000000000L0",
+                "Comparator": "GreaterThanOrEqualTo",
+                "IntegerValues": [
+                    98
+                ],
+                "ActionsGuarded": "Accept"
+            },
+            {
+                "QualificationTypeId": "00000000000000000060",
+                "Comparator": "EqualTo",
+                "IntegerValues": [
+                    1
+                ],
+                "ActionsGuarded": "Accept"
+            }
+        ],
         # HITLayoutParameters=[
         #     {
         #         'Name': 'string',
@@ -61,16 +94,17 @@ def send_hit(client):
         #     },
         # ]
     )
-    pprint(response)
+    #pprint(response)
 
 def list_hit(client):
     response = client.list_reviewable_hits(
         # HITTypeId='string',
-        # Status='Reviewable'|'Reviewing',
+        #Status='Reviewable',
         # NextToken='string',
-        # MaxResults=123
+        MaxResults=100
     )
-    print(response)
+    response = client.list_hits(MaxResults=100)
+    return response
 
 def list_assignment(client, hit_id):
     response = client.list_assignments_for_hit(
@@ -91,21 +125,25 @@ def approve_assignment(client, assignment_id):
         # OverrideRejection=True|False
     )
 
-def get_all_assignment(client, hit_id):
+def get_all_assignment(client, hit_id, filename=None):
     response = client.list_assignments_for_hit(
         HITId=hit_id,
         AssignmentStatuses=[
             'Submitted',
+            #'Approved',
         ]
     )
-    # print(response["Assignments"])
+    #print(response["Assignments"])
+    #print(response)
 
     for r in response["Assignments"]:
         r["SubmitTime"] = str(r["SubmitTime"])
         r["AcceptTime"] = str(r["AcceptTime"])
         r["AutoApprovalTime"] = str(r["AutoApprovalTime"])
+        #r["ApprovalTime"] = str(r["ApprovalTime"])
 
-    with open("result.json", 'w', encoding='utf-8') as outfile:
+    if filename is None: filename = "result.json"
+    with open(filename, 'w', encoding='utf-8') as outfile:
         json.dump(response["Assignments"], outfile, indent=4)
 
 def approve_all_assignment(client, hit_id):
@@ -118,13 +156,32 @@ def approve_all_assignment(client, hit_id):
     for r in response["Assignments"]:
         approve_assignment(client, r["AssignmentId"])
 
+def approve_all_hit(client):
+    res = list_hit(client)
+    print(len(res["HITs"]))
+    for i, r in enumerate(res["HITs"]):
+        print(i)
+        hit_id = r["HITId"]
+        approve_all_assignment(client, hit_id)
+
+def get_all_hit(client):
+    res = list_hit(client)
+    print(len(res["HITs"]))
+    for i, r in enumerate(res["HITs"]):
+        print(i)
+        hit_id = r["HITId"]
+        get_all_assignment(client, hit_id, filename="my_result/result_{:0>4}.json".format(i))
+
 def main():
     client = get_client()
-    send_hit(client)
+    #approve_all_hit(client)
+    get_all_hit(client)
+    #send_hit_batch(client)
+    # send_hit(client)
     # list_hit(client)
     # list_assignment(client, "3087LXLJ6NP46TKL2FUX3SQEZENF0G")
-    # get_all_assignment(client, "3087LXLJ6NP46TKL2FUX3SQEZENF0G")
-    #approve_all_assignment(client, "3087LXLJ6NP46TKL2FUX3SQEZENF0G")
+    #get_all_assignment(client, "31JUPBOOROD8OAZKJUAB5GZEE4A8LJ")
+    # approve_all_assignment(client, "3087LXLJ6NP46TKL2FUX3SQEZENF0G")
     # approve_assignment(client, "3ATPCQ38JAJ9UHXSPAOHJZ2LJD8AYY")
 
 if __name__ == "__main__":

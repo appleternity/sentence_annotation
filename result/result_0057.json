@@ -1,0 +1,57 @@
+[
+    {
+        "AssignmentId": "374TNBHA8D41HX49E6L2V3KZRO5YQ7",
+        "AutoApprovalTime": "2019-05-10 17:26:42-04:00",
+        "Answer": "<?xml version=\"1.0\" encoding=\"ASCII\"?><QuestionFormAnswers xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd\"><Answer><QuestionIdentifier>q1</QuestionIdentifier><FreeText>5</FreeText></Answer><Answer><QuestionIdentifier>memo</QuestionIdentifier><FreeText>skillful|skilled|skillful|41</FreeText></Answer></QuestionFormAnswers>",
+        "HITId": "3BA7SXOG1KZJR8UXOE76DWAFOEGR8B",
+        "SubmitTime": "2019-04-10 17:26:42-04:00",
+        "AcceptTime": "2019-04-10 17:26:35-04:00",
+        "AssignmentStatus": "Approved",
+        "ApprovalTime": "2019-04-11 14:08:30-04:00",
+        "WorkerId": "AITP2LUW8GPB"
+    },
+    {
+        "AssignmentId": "35H6S234SC9A5RB5OV27E15FWIQ653",
+        "AutoApprovalTime": "2019-05-10 17:26:51-04:00",
+        "Answer": "<?xml version=\"1.0\" encoding=\"ASCII\"?><QuestionFormAnswers xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd\"><Answer><QuestionIdentifier>q1</QuestionIdentifier><FreeText>4</FreeText></Answer><Answer><QuestionIdentifier>memo</QuestionIdentifier><FreeText>skillful|skilled|skillful|41</FreeText></Answer></QuestionFormAnswers>",
+        "HITId": "3BA7SXOG1KZJR8UXOE76DWAFOEGR8B",
+        "SubmitTime": "2019-04-10 17:26:51-04:00",
+        "AcceptTime": "2019-04-10 17:26:39-04:00",
+        "AssignmentStatus": "Approved",
+        "ApprovalTime": "2019-04-11 14:08:31-04:00",
+        "WorkerId": "A3CJS37DSXQOAZ"
+    },
+    {
+        "AssignmentId": "3VA45EW49PW16FGQN4MPSBEP52FO1S",
+        "AutoApprovalTime": "2019-05-10 17:26:59-04:00",
+        "Answer": "<?xml version=\"1.0\" encoding=\"ASCII\"?><QuestionFormAnswers xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd\"><Answer><QuestionIdentifier>q1</QuestionIdentifier><FreeText>5</FreeText></Answer><Answer><QuestionIdentifier>memo</QuestionIdentifier><FreeText>skillful|skilled|skillful|41</FreeText></Answer></QuestionFormAnswers>",
+        "HITId": "3BA7SXOG1KZJR8UXOE76DWAFOEGR8B",
+        "SubmitTime": "2019-04-10 17:26:59-04:00",
+        "AcceptTime": "2019-04-10 17:26:52-04:00",
+        "AssignmentStatus": "Approved",
+        "ApprovalTime": "2019-04-11 14:08:31-04:00",
+        "WorkerId": "A18TCR555RWUZV"
+    },
+    {
+        "AssignmentId": "3ZOTGHDK5KK10ZFK0N19OC1YV2ROSB",
+        "AutoApprovalTime": "2019-05-10 17:27:22-04:00",
+        "Answer": "<?xml version=\"1.0\" encoding=\"ASCII\"?><QuestionFormAnswers xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd\"><Answer><QuestionIdentifier>q1</QuestionIdentifier><FreeText>5</FreeText></Answer><Answer><QuestionIdentifier>memo</QuestionIdentifier><FreeText>skillful|skilled|skillful|41</FreeText></Answer></QuestionFormAnswers>",
+        "HITId": "3BA7SXOG1KZJR8UXOE76DWAFOEGR8B",
+        "SubmitTime": "2019-04-10 17:27:22-04:00",
+        "AcceptTime": "2019-04-10 17:25:44-04:00",
+        "AssignmentStatus": "Approved",
+        "ApprovalTime": "2019-04-11 14:08:31-04:00",
+        "WorkerId": "A1T8LV8EOI43UN"
+    },
+    {
+        "AssignmentId": "3LOZAJ85YFMVP9CE7Z9ZG7FN9C1X2Q",
+        "AutoApprovalTime": "2019-05-10 17:37:18-04:00",
+        "Answer": "<?xml version=\"1.0\" encoding=\"ASCII\"?><QuestionFormAnswers xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd\"><Answer><QuestionIdentifier>q1</QuestionIdentifier><FreeText>5</FreeText></Answer><Answer><QuestionIdentifier>memo</QuestionIdentifier><FreeText>skillful|skilled|skillful|41</FreeText></Answer></QuestionFormAnswers>",
+        "HITId": "3BA7SXOG1KZJR8UXOE76DWAFOEGR8B",
+        "SubmitTime": "2019-04-10 17:37:18-04:00",
+        "AcceptTime": "2019-04-10 17:31:18-04:00",
+        "AssignmentStatus": "Approved",
+        "ApprovalTime": "2019-04-11 14:08:31-04:00",
+        "WorkerId": "A3CR9XJAL7U5JW"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "AssignmentStatus": "Submitted",
+        "SubmitTime": "2019-04-15 19:32:12-04:00",
+        "AcceptTime": "2019-04-15 19:31:41-04:00",
+        "AssignmentId": "3SB5N7Y3O5DD7DEA325INTJ450IG01",
+        "Answer": "<?xml version=\"1.0\" encoding=\"ASCII\"?><QuestionFormAnswers xmlns=\"http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd\"><Answer><QuestionIdentifier>q1</QuestionIdentifier><FreeText>4</FreeText></Answer><Answer><QuestionIdentifier>memo</QuestionIdentifier><FreeText>destroy|spoil|destroy|85</FreeText></Answer></QuestionFormAnswers>",
+        "HITId": "3Q2T3FD0OOH6TVBZ7PGUEC6SYN83MO",
+        "WorkerId": "A3UVFPUB13S3JE",
+        "AutoApprovalTime": "2019-05-15 19:32:12-04:00"
+    }
+]
