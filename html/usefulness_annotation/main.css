@@ -36,6 +36,7 @@
     color: red;
     text-align: center;
     height: 20px;
+    margin-bottom: 10px;
 }
 
 #submit_panel {
@@ -55,4 +56,89 @@
 
 .selected .highlighted {
     color: black;
+}
+#question_table {
+    font-size: 12pt;
+}
+
+#question_table thead th {
+    text-align: center;
+}
+
+#question_table td:nth-child(2), #question_table td:nth-child(3) {
+    text-align: center;
+}
+
+.blank {
+    /* background: #686969; */
+    border: 1px solid black;
+}
+
+.form-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: #a2f1ffd2;
+    color: #1d2b2b;
+    /* top: 10px; */
+    /* left: 4px; */
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    /* border-radius: 50px; */
+    cursor: pointer;     
+    /* margin-right: 7px; */
+    outline: none;
+}
+.form-radio:checked::before {
+    position: absolute;
+    font: 25px/1 'Open Sans', sans-serif;
+    font-weight: bold;
+    left: 5px;
+    top: 2px;
+    /*content: '\02143';*/
+    content: '\2714';
+    /*content: 'v';*/
+    /*transform: rotate(40deg);*/
+}
+.form-radio:hover {
+    /*background-color: #f7f7f7;*/
+    background-color:#7bdef0d2;
+}
+.form-radio:checked {
+    background-color: #8be8f8d2;
+}
+
+#question_table td:nth-child(2) .form-radio {
+    background-color: rgb(255, 255, 167);
+}
+
+#second_stage {
+    display: none;
+}
+
+#submit_btn {
+    display: none;
+}
+
+#first_box {
+    display:inline-block;
+    background-color: rgb(255, 255, 167);
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    position:relative;
+    top: 5px;
+}
+
+#second_box {
+    display:inline-block;
+    background-color: #a2f1ffd2;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    position:relative;
+    top: 5px;
 }

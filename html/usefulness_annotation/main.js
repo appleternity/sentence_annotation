@@ -49,6 +49,23 @@ $(document).ready(function() {
 
         $("#mturk_form").submit();
     });
+
+    $(document).on("click", "#next_btn", function() {
+        $("#warning").text("");
+        var answers = $(".form-radio:checked");
+        if (answers.length != 20) {
+            $("#warning").text("Please finish all the questions! ( "+ (20 - answers.length) +" left)");
+            return;
+        }
+        var text_answer = JSON.stringify($.map(answers, function(e) { e = $(e); return {"id":e.attr("name"), "ans":e.val()} }));
+        $("#fib_answer").val(text_answer);
+        $("#next_btn").hide();
+        $("#first_stage").hide();
+        $("#submit_btn").show();
+        $("#second_stage").css("display", "flex");
+
+    })
+
 });
 
 var temp;
