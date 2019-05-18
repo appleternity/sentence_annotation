@@ -1,0 +1,100 @@
+<div id="w1d1" class="w1d1_drag" draggable="true" ondragstart="drag(event)">Because of the bad weather, the match was <span word="postpone">____</span> for a week.</div>
+<div id="w1d2" class="w1d2_drag" draggable="true" ondragstart="drag(event)">The crew did not know that the invasion had been <span word="postpone">____</span>.</div>
+<div id="w1d3" class="w1d3_drag" draggable="true" ondragstart="drag(event)">Obama’s Tacoma appearance was originally scheduled for Feb. 8 but was <span word="postpone">____</span> due to a snowstorm.</div>
+<div id="w1d4" class="w1d4_drag" draggable="true" ondragstart="drag(event)">This is the second time that Sater’s appearance before the committee was <span word="postpone">____</span>.</div>
+<div id="w1d5" class="w1d5_drag" draggable="true" ondragstart="drag(event)">A vote on the ordinance was <span word="postpone">____</span> late last week for further discussion.</div>
+<div id="w1d6" class="w1d6_drag" draggable="true" ondragstart="drag(event)">The catch, however, was that the upcoming election would be <span word="postpone">____</span> and the government reshuffled.</div>
+<div id="w1d7" class="w1d7_drag" draggable="true" ondragstart="drag(event)">The game, against the Minnesota Whitecaps in St. Paul, scheduled for last Sunday, was <span word="postpone">____</span>.</div>
+<div id="w1d8" class="w1d8_drag" draggable="true" ondragstart="drag(event)">The country’s High Court, however, unexpectedly <span word="postpone">____</span>, until May 24th, its ruling on whether to strike down a nearly century-old law.</div>
+<div id="w1d9" class="w1d9_drag" draggable="true" ondragstart="drag(event)">The launch was “<span word="postpone">____</span> because of ‘two issues’ found during testing.</div>
+<div id="w1d10" class="w1d10_drag" draggable="true" ondragstart="drag(event)">Their return flight was <span word="postpone">____</span> indefinitely, after a Russian rocket fail in October 2018.</div>
+<div id="w2d1" class="w2d1_drag" draggable="true" ondragstart="drag(event)">The departure of the flight was briefly <span word="delay">____</span>.</div>
+<div id="w2d2" class="w2d2_drag" draggable="true" ondragstart="drag(event)">The government <span word="delay">____</span> granting passports to them until a week before their departure.</div>
+<div id="w2d3" class="w2d3_drag" draggable="true" ondragstart="drag(event)">Try and  persuade them to <span word="delay">____</span> some of the changes.</div>
+<div id="w2d4" class="w2d4_drag" draggable="true" ondragstart="drag(event)">The coach was <span word="delay">____</span> for about five hours.</div>
+<div id="w2d5" class="w2d5_drag" draggable="true" ondragstart="drag(event)">The flight has been <span word="delay">____</span> one hour, due to weather conditions.</div>
+<div id="w2d6" class="w2d6_drag" draggable="true" ondragstart="drag(event)">Their original trial date was Nov. 14, and then it was <span word="delay">____</span> to Tuesday.</div>
+<div id="w2d7" class="w2d7_drag" draggable="true" ondragstart="drag(event)">She said other options would lead to <span word="delay">____</span>, to uncertainty and risked never delivering Brexit.</div>
+<div id="w2d8" class="w2d8_drag" draggable="true" ondragstart="drag(event)">Traffic was being detoured around the crash scene, causing travel <span word="delay">____</span> in the area.</div>
+<div id="w2d9" class="w2d9_drag" draggable="true" ondragstart="drag(event)">With reports of irregularities increasing, the <span word="delay">____</span> made election monitors nervous.</div>
+<div id="w2d10" class="w2d10_drag" draggable="true" ondragstart="drag(event)">Now that first flight — a test mission without any astronauts on board — is going to be <span word="delay">____</span> to at least August, according to two officials with knowledge of the situation.</div>
+<div id="w1d1" class="w1d1_drag" draggable="true" ondragstart="drag(event)">On the plane home, I suddenly <span word="realize">____</span> that I had left my coat at the hotel.</div>
+<div id="w1d2" class="w1d2_drag" draggable="true" ondragstart="drag(event)">Until I saw the clock I hadn't <span word="realize">____</span> how late it was.</div>
+<div id="w1d3" class="w1d3_drag" draggable="true" ondragstart="drag(event)">I <span word="realize">____</span> that this man wasn't going to hurt me.</div>
+<div id="w1d4" class="w1d4_drag" draggable="true" ondragstart="drag(event)">She <span word="realize">____</span> that she could not reach the shore.</div>
+<div id="w1d5" class="w1d5_drag" draggable="true" ondragstart="drag(event)">As soon as I saw him, I <span word="realize">____</span> that I'd seen him before.</div>
+<div id="w1d6" class="w1d6_drag" draggable="true" ondragstart="drag(event)">“That’s when I <span word="realize">____</span> that I loved you so much because you are fearless.”</div>
+<div id="w1d7" class="w1d7_drag" draggable="true" ondragstart="drag(event)">A few years ago, I <span word="realize">____</span> that I needed to be able to look like a normal person but perform like a professional athlete.</div>
+<div id="w1d8" class="w1d8_drag" draggable="true" ondragstart="drag(event)">When did you first <span word="realize">____</span> that mathematics fascinated you?</div>
+<div id="w1d9" class="w1d9_drag" draggable="true" ondragstart="drag(event)">He didn’t seem to <span word="realize">____</span> that doing so in front of the wall made the case for the wall.</div>
+<div id="w1d10" class="w1d10_drag" draggable="true" ondragstart="drag(event)">“I really want to help students <span word="realize">____</span> their potential even if they can’t home-school,” Haley said.</div>
+<div id="w2d1" class="w2d1_drag" draggable="true" ondragstart="drag(event)">I found the lecture hard to <span word="understand">____</span>.</div>
+<div id="w2d2" class="w2d2_drag" draggable="true" ondragstart="drag(event)">His lecture was confusing; no one could <span word="understand">____</span> the terminology.</div>
+<div id="w2d3" class="w2d3_drag" draggable="true" ondragstart="drag(event)">I <span word="understand">____</span> he's had several wives.</div>
+<div id="w2d4" class="w2d4_drag" draggable="true" ondragstart="drag(event)">There was no definite evidence, I <span word="understand">____</span>, which could be brought against her.</div>
+<div id="w2d5" class="w2d5_drag" draggable="true" ondragstart="drag(event)">It was a huge betrayal. He was my friend. I don't <span word="understand">____</span> how you do that to someone that you've been a friend to.</div>
+<div id="w2d6" class="w2d6_drag" draggable="true" ondragstart="drag(event)">“We are collecting pieces of a puzzle and need more pieces to <span word="understand">____</span> better what is going on.”</div>
+<div id="w2d7" class="w2d7_drag" draggable="true" ondragstart="drag(event)">I don’t tell people I was homeless, because they wouldn’t <span word="understand">____</span>.</div>
+<div id="w2d8" class="w2d8_drag" draggable="true" ondragstart="drag(event)">“The city was losing the ability to manage, design, and <span word="understand">____</span> what was happening in the public realm,” she says.</div>
+<div id="w2d9" class="w2d9_drag" draggable="true" ondragstart="drag(event)">“But for me, it was like: ‘Okay, I <span word="understand">____</span> they’re building a team there.</div>
+<div id="w2d10" class="w2d10_drag" draggable="true" ondragstart="drag(event)">I <span word="understand">____</span> the tension in trying to reenter academia — the very system that let you down before — where disclosing details might circle back to harm you.</div>
+<div id="w1d1" class="w1d1_drag" draggable="true" ondragstart="drag(event)">It takes four years to train a <span word="skilled">____</span> engineer.</div>
+<div id="w1d2" class="w1d2_drag" draggable="true" ondragstart="drag(event)">We need more <span word="skilled">____</span> workers in this country.</div>
+<div id="w1d3" class="w1d3_drag" draggable="true" ondragstart="drag(event)">He was only interested in highly-paid, <span word="skilled">____</span> work.</div>
+<div id="w1d4" class="w1d4_drag" draggable="true" ondragstart="drag(event)">Weaving was a very <span word="skilled">____</span> job, requiring a five-year apprenticeship.</div>
+<div id="w1d5" class="w1d5_drag" draggable="true" ondragstart="drag(event)">Understanding visual communication is the difference between a <span word="skilled">____</span> artist and a novice.</div>
+<div id="w1d6" class="w1d6_drag" draggable="true" ondragstart="drag(event)">For a high <span word="skilled">____</span> immigrant with an advanced degree, the fiscal surplus is nearly $1 million.</div>
+<div id="w1d7" class="w1d7_drag" draggable="true" ondragstart="drag(event)">"I think that I am a <span word="skilled">____</span> communicator," she said.</div>
+<div id="w1d8" class="w1d8_drag" draggable="true" ondragstart="drag(event)">He knows exactly how to touch me and where, he is very responsive to my body—he’s just really <span word="skilled">____</span>.</div>
+<div id="w1d9" class="w1d9_drag" draggable="true" ondragstart="drag(event)">They trust each other, and then on top of it, they’ve got really <span word="skilled">____</span>, talented kids.</div>
+<div id="w1d10" class="w1d10_drag" draggable="true" ondragstart="drag(event)">She is enormously <span word="skilled">____</span> at appearing to share details about her personal life without actually divulging very much.</div>
+<div id="w2d1" class="w2d1_drag" draggable="true" ondragstart="drag(event)">They are a great team with a lot of <span word="skillful">____</span> players.</div>
+<div id="w2d2" class="w2d2_drag" draggable="true" ondragstart="drag(event)">As an artist, he was very <span word="skillful">____</span> with a pencil.</div>
+<div id="w2d3" class="w2d3_drag" draggable="true" ondragstart="drag(event)">After the break, Buffon showed that he’s still - at age 40 - one of the world’s most <span word="skillful">____</span> goalkeepers with a series of reflex saves.</div>
+<div id="w2d4" class="w2d4_drag" draggable="true" ondragstart="drag(event)">He remains one of the most <span word="skillful">____</span> players around and a proven match-winner on his day.</div>
+<div id="w2d5" class="w2d5_drag" draggable="true" ondragstart="drag(event)">It is also a <span word="skillful">____</span> and imaginative blurring of fact and fiction, albeit one that insistently calls the act of such blurring into question.</div>
+<div id="w2d6" class="w2d6_drag" draggable="true" ondragstart="drag(event)">She’s a <span word="skillful">____</span> rhetorician, gracefully navigating her way around partisan land mines by talking about babies and ancient Greece.</div>
+<div id="w2d7" class="w2d7_drag" draggable="true" ondragstart="drag(event)">This is not a profoundly <span word="skillful">____</span> or insightful question, but it stopped me in my tracks.</div>
+<div id="w2d8" class="w2d8_drag" draggable="true" ondragstart="drag(event)">Needless to say, some <span word="skillful">____</span> negotiations took place.</div>
+<div id="w2d9" class="w2d9_drag" draggable="true" ondragstart="drag(event)">In Sampson’s <span word="skillful">____</span> hands, the play of light becomes not only an evocation of life inside the house, but also an entry into the historical setting.</div>
+<div id="w2d10" class="w2d10_drag" draggable="true" ondragstart="drag(event)">She was not surprised that her daughter-in-law was the pilot credited with the <span word="skillful">____</span> landing.</div>
+<div id="w1d1" class="w1d1_drag" draggable="true" ondragstart="drag(event)">Manuelito <span word="manage">____</span> to avoid capture.</div>
+<div id="w1d2" class="w1d2_drag" draggable="true" ondragstart="drag(event)">How did you <span word="manage">____</span> to do that?</div>
+<div id="w1d3" class="w1d3_drag" draggable="true" ondragstart="drag(event)">I let my accountant <span word="manage">____</span> all my financial affairs.</div>
+<div id="w1d4" class="w1d4_drag" draggable="true" ondragstart="drag(event)">I was told that you might <span word="manage">____</span> to repair it.</div>
+<div id="w1d5" class="w1d5_drag" draggable="true" ondragstart="drag(event)">My issue is how to <span word="manage">____</span> my sadness at the office.</div>
+<div id="w1d6" class="w1d6_drag" draggable="true" ondragstart="drag(event)">“The House of Commons did not <span word="manage">____</span> to find a majority again last night”, Barnier said.</div>
+<div id="w1d7" class="w1d7_drag" draggable="true" ondragstart="drag(event)">Before it dies, a frog may <span word="manage">____</span> to hop its way to a new stream or pond, spreading the fungus further.</div>
+<div id="w1d8" class="w1d8_drag" draggable="true" ondragstart="drag(event)">He <span word="manage">____</span> to run away and was taken to hospital.</div>
+<div id="w1d9" class="w1d9_drag" draggable="true" ondragstart="drag(event)">Still, the designers <span word="manage">____</span> to inject some whimsy.</div>
+<div id="w1d10" class="w1d10_drag" draggable="true" ondragstart="drag(event)">“If he would just shut up and let Lighthizer <span word="manage">____</span> it, it would get through.”</div>
+<div id="w2d1" class="w2d1_drag" draggable="true" ondragstart="drag(event)">He had <span word="arrange">____</span> for roadblocks to be erected.</div>
+<div id="w2d2" class="w2d2_drag" draggable="true" ondragstart="drag(event)">I had <span word="arrange">____</span> for a photographer to take pictures of the body.</div>
+<div id="w2d3" class="w2d3_drag" draggable="true" ondragstart="drag(event)">I will <span word="arrange">____</span> for the magazine to be sent to you every month.</div>
+<div id="w2d4" class="w2d4_drag" draggable="true" ondragstart="drag(event)">The purpose was to <span word="arrange">____</span> cash payments to Romanian hackers.</div>
+<div id="w2d5" class="w2d5_drag" draggable="true" ondragstart="drag(event)">She then photographed herself in the same position, and <span word="arrange">____</span> the images so the two figures were looking at each other.</div>
+<div id="w2d6" class="w2d6_drag" draggable="true" ondragstart="drag(event)">So, in December, he <span word="arrange">____</span> a phone call with Trump.</div>
+<div id="w2d7" class="w2d7_drag" draggable="true" ondragstart="drag(event)">"I'm also <span word="arrange">____</span> to meet the prime minister next week again on a one-to-one basis," he added.</div>
+<div id="w2d8" class="w2d8_drag" draggable="true" ondragstart="drag(event)">“There are many things to <span word="arrange">____</span>,” Tía Cuca said, laying a hand on Naomi’s shoulder.</div>
+<div id="w2d9" class="w2d9_drag" draggable="true" ondragstart="drag(event)">The police will then <span word="arrange">____</span> for these weapons to be handed over, and eventually destroyed.</div>
+<div id="w2d10" class="w2d10_drag" draggable="true" ondragstart="drag(event)">Later, she <span word="arrange">____</span> to meet a friend and put the date and time into her Gmail diary on her computer - but not the location.</div>
+<div id="w1d1" class="w1d1_drag" draggable="true" ondragstart="drag(event)">Several apartment buildings were <span word="destroy">____</span> by the bomb.</div>
+<div id="w1d2" class="w1d2_drag" draggable="true" ondragstart="drag(event)">I <span word="destroy">____</span> the letter as soon as I had read it.</div>
+<div id="w1d3" class="w1d3_drag" draggable="true" ondragstart="drag(event)">That office burned down Friday morning, <span word="destroy">____</span> several decades of archives.</div>
+<div id="w1d4" class="w1d4_drag" draggable="true" ondragstart="drag(event)">“The whole place is <span word="destroy">____</span> . . . we can’t afford to rebuild our houses,” he said.</div>
+<div id="w1d5" class="w1d5_drag" draggable="true" ondragstart="drag(event)">She believes the building will <span word="destroy">____</span> the feeling of “a huge, undisturbed landscape”.</div>
+<div id="w1d6" class="w1d6_drag" draggable="true" ondragstart="drag(event)">Human activities <span word="destroy">____</span> natural flood protection and put more people in harm’s way.</div>
+<div id="w1d7" class="w1d7_drag" draggable="true" ondragstart="drag(event)">The player <span word="destroy">____</span> the universe with the same sense of remoteness involved in ordering a sweater online.</div>
+<div id="w1d8" class="w1d8_drag" draggable="true" ondragstart="drag(event)">More than a dozen major hotels on the three islands were also damaged or <span word="destroy">____</span>.</div>
+<div id="w1d9" class="w1d9_drag" draggable="true" ondragstart="drag(event)">They <span word="destroy">____</span> conventional nets and are fished with cages.</div>
+<div id="w1d10" class="w1d10_drag" draggable="true" ondragstart="drag(event)">Officials said a sandwich shop and homes at four addresses were <span word="destroy">____</span>.</div>
+<div id="w2d1" class="w2d1_drag" draggable="true" ondragstart="drag(event)">Go and welcome your guest. I hope I've not <span word="spoil">____</span> things.</div>
+<div id="w2d2" class="w2d2_drag" draggable="true" ondragstart="drag(event)">The evening had been <span word="spoil">____</span> by Charles Boon and Mrs Zapp.</div>
+<div id="w2d3" class="w2d3_drag" draggable="true" ondragstart="drag(event)">This unpleasant man with his endless complaints <span word="spoil">____</span> my journey.</div>
+<div id="w2d4" class="w2d4_drag" draggable="true" ondragstart="drag(event)">One of the challenges in talking about the movie is trying not to <span word="spoil">____</span> its many surprises.</div>
+<div id="w2d5" class="w2d5_drag" draggable="true" ondragstart="drag(event)">“It’s people that <span word="spoil">____</span> everything nice in the whole world!” she cried.</div>
+<div id="w2d6" class="w2d6_drag" draggable="true" ondragstart="drag(event)">Several grim demises later, it <span word="spoil">____</span> nothing to say that she's a changed person.</div>
+<div id="w2d7" class="w2d7_drag" draggable="true" ondragstart="drag(event)">I don’t want to <span word="spoil">____</span> too much, but one of the rats is played by postmodern YouTube star Poppy.</div>
+<div id="w2d8" class="w2d8_drag" draggable="true" ondragstart="drag(event)">It’s a bummer when the working poor <span word="spoil">____</span> your holiday plans.</div>
+<div id="w2d9" class="w2d9_drag" draggable="true" ondragstart="drag(event)">“We try not to <span word="spoil">____</span> the music which we perform by our own thoughts or feelings,” Mr. Gerhaher said.</div>
+<div id="w2d10" class="w2d10_drag" draggable="true" ondragstart="drag(event)">Food <span word="spoil">____</span> during transport, at the grocery store or in our homes.</div>

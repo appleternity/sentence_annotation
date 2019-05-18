@@ -35,8 +35,8 @@ $(document).ready(function() {
         var w1_answers = $("#sentence_panel_1 .selected");
         var w2_answers = $("#sentence_panel_2 .selected");
 
-        if (w1_answers.length < 5 || w2_answers.length < 5) {
-            $("#warning").text("Please select at least 5 sentences.");
+        if (w1_answers.length < 3 || w2_answers.length < 3) {
+            $("#warning").text("Please select at least 3 sentences.");
             return false;
         }
 

@@ -85,6 +85,12 @@ def display_question(sent):
         '<span class="blank">{}</span>'.format("_______")
     )
 
+def display_answer(sent):
+    return sent["sentence"].replace(
+        sent["tokens"][sent["target_index"]][0],
+        '<span class="blank">{}</span>'.format("_______")
+    )
+
 def generate_html_sentence():
     with open("sentences_all_info.json", 'r', encoding='utf-8') as infile:
         data = json.load(infile)
@@ -106,15 +112,15 @@ def generate_html_sentence():
 def generate_html_question():
     with open("sentences_all_info.json", 'r', encoding='utf-8') as infile:
         data = json.load(infile)
-
-    wordset = "postpone|delay"
+    # print ("hello!")
+    wordset = "destroy|spoil"
     sentence_dict = data[wordset]
     results = []
     for word in wordset.split("|"):
         sentences = sentence_dict[word]
         for sent in sentences:
             question = """<tr><td>{}</td><td><input type="radio" name="{}" value="{}" class="form-radio" /></td><td><input type="radio" name="{}" value="{}" class="form-radio" /></td></tr>""".format(
-                display_question(sent), sent["id"], "postpone", sent["id"], "delay"
+                display_question(sent), sent["id"], "destroy", sent["id"], "spoil"
             )
             results.append(question)
         # results.append("\n")
@@ -123,11 +129,33 @@ def generate_html_question():
     with open("questions.txt", 'w', encoding='utf-8') as outfile:
         outfile.write("\n".join(results))
 
+def generate_html_answer():
+    with open("sentences_all_info.json", 'r', encoding='utf-8') as infile:
+        data = json.load(infile)
+    # print ("hello!")
+    wordset = "destroy|spoil"
+    sentence_dict = data[wordset]
+    results = []
+    for word in wordset.split("|"):
+        sentences = sentence_dict[word]
+        for sent in sentences:
+            answer = """<div class="not_selected sentence" id="{}">{}</div>""".format(
+                sent["id"],display_answer(sent)
+            )
+            results.append(answer)
+        # results.append("\n")
+    
+    # random.shuffle(results)
+    with open("destroy-spoil.txt", 'w', encoding='utf-8') as outfile:
+        outfile.write("\n".join(results))    
+
 def main():
     # parse_csv()
     # generate_html_sentence()
-    generate_html_question()
+    # generate_html_question()
+    generate_html_answer()
     # mix_tokenization()
 
 if __name__ == "__main__":
     main()
+
